@@ -1,0 +1,63 @@
+1.class movie {
+  constructor(title,studio,rating){
+    this.title =  title;
+    this.studio = studio;
+    this.rating = rating;
+  }
+}
+var c = new movie ("casino royale","eon productions","PG13");
+copnsole.log(c.movie);
+
+// set the property to PG 
+
+set changerating(modifiedrating){
+  this.rating = modifiedrating;
+}
+var c = new rating("title","studio","rating");
+c.changerating = "PG";
+console.log(c.getrating());
+
+//getPG
+
+getPG(){
+  return "It is full of movie instances";
+}
+var c = new movie("title","studio","rating");
+console.log(c.getPG);
+
+//piece of code 
+
+getmovie(){
+  return "The title " + this.title +"the studio " + this.studio +"the rating " +this.rating ;
+}
+var c = new movie ("title","studio","rating");
+console.log(c.movie);
+
+
+2.class circle {
+  constructor(radius, diameter){
+    this.radius = radius;
+    this.diameter = diameter;
+  }
+}
+var c = new circle("radius","diameter");
+console.log(c.circle);
+
+3.class person {
+  constructor (name, gender, address ){
+    this.name = name;
+    this.gender = gender;
+    this.address = address;
+  }
+}
+  var c = new person("Ragu","Male","Coimbatore");
+  console.log(c.person);
+
+4.class uber {
+  constructor (ride, price){
+    this.ride = ride;
+    this.price =price;
+  }
+}
+  var c = new uber("inside city","hundred");
+  console.log(c.uber);
