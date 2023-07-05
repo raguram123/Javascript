@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title>XMLHttpRequest Example</title>
+  </head>
+  <body>
+    <script>
+      //Create a new XMLHttpRequest object
+      var xhr = new XMLHttpRequest();
+
+      //Define HTTP method and URL
+      var method = "GET";
+      var url = "https://restcountries.com/v3.1/all";
+
+      //Open the request
+      xhr.open(method, url);
+
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          var details = JSON.parse(xhr.responseText);request.ope
+          for (var i = 0; i < details.length; i++) {
+            if (details[i].currencies != undefined) {
+              Object.keys(details[i].currencies).forEach((key) => {
+                if (key == "USD") {
+                  console.log(key, details[i].currencies[key]);
+                }
+              });
+            }
+          }
+        } else {
+          //Request failed
+          console.log("Request failed", xhr.status);
+        }
+      };
+
+      //send the request
+      xhr.send();
+    </script>
+  </body>
+</html>
+
+//Get all the countries from asia continent using filter function 
+
+  var method = "GET";
+      var url = "https://restcountries.com/v3.1/all";
+
+var result = result.filter((a)=>a.asia continent);
+console.log(result);
+
+//get population less than 2 lakhs using filter function
+
+ var method = "GET";
+      var url = "https://restcountries.com/v3.1/all";
+
+var resuult = result.filter((a)=>a.population<200000);
+console.log(result);
+
+//print details using for each 
+NAME:
+ var details = JSON.parse(xhr.responseText);request.ope
+          for (var i = 0; i < details.length; i++) {
+            if (details[i].name != undefined) {
+              Object.keys(details[i].name).forEach((key) => {
+                if (key == "name") {
+                  console.log(key, details[i].name[key]);
+                }
+
+CAPITAL:
+ var details = JSON.parse(xhr.responseText);request.ope
+          for (var i = 0; i < details.length; i++) {
+            if (details[i].capital != undefined) {
+              Object.keys(details[i].capital).forEach((key) => {
+                if (key == "capital") {
+                  console.log(key, details[i].capital[key]);
+                }
+
+FLAGS:
+ var details = JSON.parse(xhr.responseText);request.ope
+          for (var i = 0; i < details.length; i++) {
+            if (details[i].flaggs != undefined) {
+              Object.keys(details[i].flags).forEach((key) => {
+                if (key == "flags") {
+                  console.log(key, details[i].flags[key]);
+                }
+
+//print population of countries using reduce function 
+
+var result = result.reduce((a)=>a.population);
+console.log(result);
+
+//print the countries uses us dollars as currency 
+
+var result = result.map((a)=>a.USDollars);
+console.log(result);
