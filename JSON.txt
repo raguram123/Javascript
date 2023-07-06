@@ -1,0 +1,105 @@
+{
+  "basics": {
+    "name": "Raguraman",
+    "label": "",
+    "picture": "",
+    "email": "jithucrazoo1@gmail.com",
+    "phone": 8825708543,
+    "degree": "",
+    "website": "//https:www.waymarkbrowsing.in",
+    "summary": "hi, this is raguraman i am a non - it student ",
+    "location": {
+      "address": "64/96 kamaraj nagar , kendaiyur road , kattoor , mettupalayam",
+      "postalCode": "641305",
+      "city": "coimbatore",
+      "countryCode": "IND",
+      "region": "india"
+    },
+    "profiles": [
+      {
+        "network": "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",
+        "username": "Your username on this network",
+        "url": "A URL to your user profile page"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Bharat pe",
+      "position": "team leader ",
+      "website": "https://bharatpe.com",
+      "startDate": "2021 aug 5",
+      "endDate": "2022 aug 28",
+      "summary": " i was working as a team leader in bharate pe ",
+      "highlights": [
+        "EVERY MONTH I ACHIEVE MY TARGET "
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Your volunteer organization name",
+      "position": "Your job title",
+      "website": "The URL for the employer's website",
+      "startDate": "Your start date, in YYYY-MM-DD format",
+      "endDate": "Your end date, in YYY-MM-DD format (leave blank for a current position)",
+      "summary": "A one-sentence to one-paragraph summary of this employer or position",
+      "highlights": [
+        "Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "goverment arts and science college coimbatore ",
+      "area": "coimbatore",
+      "studyType": "UG",
+      "startDate": "2018 june 10",
+      "endDate": "2021 june 15",
+      "gpa": "8.00,
+      "courses": [Bsc Physics
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Your award title",
+      "date": "Your date, in YYYY-MM-DD format you received the award",
+      "awarder": "Your award given by",
+      "summary": "A one-sentence to one-paragraph overview of this award"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Your publication title",
+      "publisher": "Publisher name",
+      "releaseDate": "Publication date, in YYYY-MM-DD format",
+      "website": "The website URL for this publisher or book",
+      "summary": "A one-sentence to one-paragraph overview of this publication"      
+    }
+  ],
+  "skills": [
+    {
+      "name": "java",
+      "level": "beginner",
+      "keywords": [
+        "java"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "tamil,english,hindhi",
+      "fluency": "i have a fluency in speaking tamil and english"
+    }
+  ],
+  "interests": [
+    {
+      "name": "football",
+      "keywords": [
+        "football"
+      ]
+    }
+  ]
+}
