@@ -1,0 +1,24 @@
+Do the following programs in annonymous function and iife function :
+
+
+a.(function odd (){
+  var num = [1,2,3,4,5];
+  console.log(num%2==0);
+})
+
+
+c.function add(){
+  var a = 10;
+  var b = 20;
+  var c a+b;
+  console.log(c);
+}
+add();
+
+
+d.function num(a,b,c){
+  return (a,b,c);
+}
+var num = [1,2,3];
+var result =sum(...num);
+console.log(result);
